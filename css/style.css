@@ -104,7 +104,7 @@
 	.main-header{position:relative;	left:0px; top:0px; z-index:1000; width:100%; transition:all 500ms ease; -moz-transition:all 500ms ease; -webkit-transition:all 500ms ease;	-ms-transition:all 500ms ease; -o-transition:all 500ms ease;}
 	.main-header .header-upper{position:relative; background:#ffffff; z-index:5; transition:all 500ms ease; -moz-transition:all 500ms ease; -webkit-transition:all 500ms ease; 	-ms-transition:all 500ms ease; -o-transition:all 500ms ease;}
 	.main-header .header-upper .logo img{position:relative;	display:inline-block; max-width:100%;}
-	.main-header .logo-outer{position:relative;	z-index:25;	padding:18px 0px}
+	.main-header .logo-outer{position:relative;	z-index:25;	padding:16px 0px}
 	.main-header .logo-outer .logo img{position:relative; display:inline-block;	max-width:100%;}
 	.main-header .header-upper .upper-right{position:relative; padding-top:33px;}
 	.main-header .info-box{position:relative; float:left; min-height:56px;	margin-left:35px; font-size:13px; color:#777777; text-transform:uppercase; padding:6px 0px 20px 75px;}
@@ -373,12 +373,12 @@ closebtn{
 	.register-links li{display:inline-block; margin: 0px 20px 0px 0px; color:#fff;}
 	.register-links li a{color: #fff; font-weight:500; text-decoration:none; font-size:14px}
 	.register-links li a i{margin-right:5px;}
-	.top-social-icons{list-style:none; text-align:center; margin-top:9px; float:left; margin-left:125px;}
+	.top-social-icons{list-style:none; text-align:center; margin-top:9px; float:left; margin-left:0;}
 	.top-social-icons li{display:inline-block; padding:0 1px;}
 	.top-social-icons li a{text-decoration:none; font-size:22px;}
 	.top-social-icons li:nth-child(1) a{color:#3a7ae6;}
 	.top-social-icons li:nth-child(2) a{color:#33ccff;}
-	.top-social-icons li:nth-child(3) a{color:#dc4a38;}
+	.top-social-icons li:nth-child(3) a{color:#41b2dc;}
 	.top-social-icons li:nth-child(4) a{color:#0274b3;}
 	.top-social-icons li:nth-child(5) a{color:#41b2dc;}
 	
@@ -1128,3 +1128,26 @@ transition:all .5s ease;}
 #Kontakt{
     float: right
 }
+
+.logo-default{
+    height: 50px;
+    width: 76px;
+}
+
+.logo-text{
+    height: 50px;
+    width: 150px;
+}
+
+.con{
+    color: #fcb80b;
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.phone,.env{
+    margin-right: 20px;
+}
+
+
+
